@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Developing 360</title>
+	<link rel="stylesheet" type="text/css" href="css/Index.css">
+</head>
+<body>
+	<section id="Header">
+		<div class="container">
+			<img src="img/Logo.png" class="Logo">
+			<div class="Header-Text">
+				<h1>
+					Welcome To <br>"Web Developing 360"
+				</h1>
+				<span class="square"></span>
+				<p>
+					Here we do everything of website for "Free" and "Paid" both.Here We Develop Websites,Design Websites...
+				</p>
+				<button class="common-btn">Read More</button>
+				<div class="Line">
+					<span class="Line1"></span><br>
+					<span class="Line2"></span><br>
+					<span class="Line3"></span><br>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<nav id="sideNav">
+		<ul>
+			<li><a href="Index.htnl">HOME</a></li>
+			<li><a href="Index.htnl">FEATURES</a></li>
+			<li><a href="Index.htnl">CONTACT</a></li>
+			<li><a href="Index.htnl">ABOUT</a></li>
+		</ul>
+	</nav>
+
+	<img src="img/menu.png" id="menubtn">
+
+	<!-- About -->
+
+	<section id="About">
+		<div class="About-left-col">
+			<img src="img/About6.jpg">
+		</div>
+		<div class="About-Right-col">
+			<div class="About-Text">
+				<h1>About Us</h1>
+				<span class="square"></span>
+
+				<p></p>
+				<br><br>
+				<div class="Line">
+					<span class="Line1"></span><br>
+					<span class="Line2"></span><br>
+					<span class="Line3"></span><br>
+				</div>
+
+				<h2>
+					
+				</h2>
+
+				<h3>
+					
+				</h3>
+			</div>
+		</div>
+	</section>
+
+
+	<script>
+		var menubtn = document.getElementById('menubtn')
+		var sideNav = document.getElementById('sideNav')
+		sideNav.style.right = "-250px";
+		menubtn.onclick = function(){
+			if (sideNav.style.right == "-250px") {
+				sideNav.style.right = "0px";
+			}
+			else{
+				sideNav.style.right = "-250px";
+			}
+		}
+ 
+	</script>
+</body>
+</html>
