@@ -309,6 +309,13 @@ hr{
 	cursor: pointer; 
 }
 
+/*PopUp*/
+
+.PopUp{
+	display: inline-block;
+	width: 50px;
+}
+
 @media only screen and (max-width: 770px){
 	#Header{
 		background-image: none;
