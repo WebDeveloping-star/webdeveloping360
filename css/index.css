@@ -4,6 +4,11 @@
 	font-family: sans-serif;
 }
 
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
 #Header{
 	height: 100vh;
 	background-image: url(../img/Background1.png);
@@ -29,6 +34,7 @@
 
 h1{
 	font-size: 33px;
+	color: #007efb;
 }
 
 .square{
@@ -39,7 +45,7 @@ h1{
 	margin: 15px 0;
 }
 
-.common-btn{
+#btn1,#btn2,#btn3,#btn4{
 	padding: 18px 40px;
 	background: transparent;
 	outline: none;
@@ -51,12 +57,13 @@ h1{
 p{
 	font-size: 15px;
 	line-height: 18px;
-	color: #777;
+	color: #03A9F4;
+	font-weight: bold;
 }
 
 .Header-Text button{
 	margin-top: 20px;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 .Line1{
@@ -133,7 +140,7 @@ nav ul li a{
 }
 
 .Service-col{
-	flex-basis: 25%;
+	flex-basis: 26%;
 	text-align: center;
 }
 
@@ -145,6 +152,7 @@ nav ul li a{
 	margin-bottom: 15px;
 	font-size: 20px;
 	font-weight: 400;
+	color: #007efb;
 }
 
 .Service-btn{
@@ -266,7 +274,7 @@ hr{
 
 .footer-info{
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -277,6 +285,10 @@ hr{
 
 .copyright-text,.footer-logo{
 	flex-basis: 40px;
+}
+
+.copyright-text{
+	display: contents;
 }
 
 /*Social*/
@@ -324,7 +336,7 @@ hr{
 	right: 50px;
     }
 
-    .common-btn{
+    #btn1,#btn2,#btn3,#btn4{
 	padding: 10px 16px;
 	}
 
@@ -369,9 +381,15 @@ hr{
 
     .Footer-right-col{
 	flex-basis: 100%;
-}
+    }
 
     .link-title{
 	flex-basis: 50%;
     }
+
+    a{
+	text-decoration: none;
+	color: inherit;
+    }
+
 }

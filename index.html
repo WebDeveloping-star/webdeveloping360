@@ -8,21 +8,25 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-
+	
 	<!-- Home -->
 
 	<section id="Header">
 		<div class="container">
-			<img src="img/Logo.png" class="Logo">
+			<a href="index.html"><img src="img/Logo.png" class="Logo"></a>
 			<div class="Header-Text">
 				<h1>
 					Welcome To <br>"Web Developing 360"
 				</h1>
 				<span class="square"></span>
 				<p>
-					Here we do everything of website for "Free" and "Paid" both.Here We Develop Websites,Design Websites...
-				</p>
-				<button class="common-btn">Read More</button>
+					Hello,<br>
+					We Are Professional Web Developers And We Know Everything About Websites...
+				</p><br>
+				<input type="Button" value="Read More" id="btn1"><br><br>
+					<p id="D1">We 'Develop websites','Design Websites','Website Layout','Fix Website Related Issues','Provide HTML Hacks','Help In JavaScript','Php Server-Site' and 'More'.</p><br>
+				<p>Go To "About Section" From MenuBar (Top-Right-Side) To Know About Our Team.</p>
+				<br>
 				<div class="Line">
 					<span class="Line1"></span><br>
 					<span class="Line2"></span><br>
@@ -75,11 +79,6 @@
 				<p>We Do Ethical and Android Hacking.</p>
 			</div>
 			<div class="Service-col">
-				<img src="img/AppDevelop.jpg">
-				<h4>Android Development</h4>
-				<p>We Make Android Applications.</p>
-			</div>
-			<div class="Service-col">
 				<img src="img/FixIssue.jpg">
 				<h4>issue Fix</h4>
 				<p>We Fix Small Html/Css,JavaScript Issues.</p>
@@ -92,7 +91,12 @@
 					<span class="Line2"></span><br>
 					<span class="Line3"></span><br>
 				</div>
-			<button class="common-btn">Try Now</button>
+			<input type="Button" value="Get Services" id="btn2">
+			<p id="D2">
+				"OPPS😅!!! CURRENTLY NO SERVICES"<br>
+				"COMING SOON..."
+				"EMAIL US FOR ANY IN-QUIRIES !!!"<BR>
+			</p>
 		</div>
 	</section>
 
@@ -101,12 +105,16 @@
 	<section id="Contact">
 		<div class="container contact-row">
 			<div class="Contact-left-col">
-				<h1>Email To Get Services<br>Follow On Insta For Awesome Hacks.</h1>
+				<h1>Email To Get Services,<br>Follow Us For Awesome Hacks.</h1>
 			</div>
 			<div class="Contact-right-col">
 				<img src="img/contact.png">
 			</div>
-			<button class="common-btn">Email</button>
+			<input type="Button" value="Email Now" id="btn3">
+			<p id="D3">
+				CONTACT US NOW BY EMAIL/GMAIL AT<BR>
+				WEBDEVELOPING360@GMAIL.COM
+			</p>
 		</div>
 	</section>
 
@@ -122,20 +130,21 @@
 				<span class="square"></span>
 				<p>
 					Hello Visitors,
-					You might be thinking that "What we actually do?"So We Do Many things such as "Website Development", "Website Designing", "Php Language", "Javascript", "Hacking😈 (Ethical and android)" And Much more...
+					"What We Can Do For You?"<br>'Website Development', 'Website Designing', 'Php ServerSite', 'JavaScript', ' Ethical Hacking😈' And More...
 				</p><br>
-				<button class="common-btn">Read More</button><br><br>	
+				<input type="Button" value="Read More" id="btn4"><br><br>
+				Alreat Box
 				<div class="Line">
 					<span class="Line1"></span><br>
 					<span class="Line2"></span><br>
 					<span class="Line3"></span><br>
 				</div>
 				<h2>
-					Our Work is not to build website,<br>
-					Our Work is to build trust of clients. 
+					We Don't Known By Our Name<br>
+					We Known By Our Services.
 				</h2>
 				<h3>
-					_ _ _Team WebDeveloping360_ _ _
+					_ _ _Team WebDeveloping360
 				</h3>
 			</div>
 		</div>
@@ -150,23 +159,23 @@
 				<div class="footer-links">
 					<div class="link-title">
 						<h4>WEB Services</h4>
-						<small>Web Design</small><br>
-						<small>WEb Develop</small>
+						<small><a href="#Service">Web Design</a></small><br>
+						<small><a href="#Service">Web Develop</a></small>
 					</div>
 					<div class="link-title">
 						<h4>Android Services</h4>
-						<small>Hacking</small><br>
-						<small>App Develop</small>
+						<small><a href="#Service">Hacking</a></small><br>
+						<small><a href="Tech.html">Tech Hacks</a></small>
 					</div>
 					<div class="link-title">
 						<h4>Other Services</h4>
-						<small>Php</small><br>
-						<small>JavaScript</small>
+						<small><a href="#Service">JavaScript</a></small><br>
+						<small><a href="#Service">Php ServerSite</a></small>
 					</div>
 					<div class="link-title">
 						<h4>Explore</h4>
-						<small>Home</small><br>
-						<small>Contact</small>
+						<small><a href="#Header">Home</a></small><br>
+						<small><a href="#Contact">Contact</a></small>
 					</div>
 				</div>
 			</div>
@@ -186,13 +195,51 @@
 	<!-- social -->
 
 	<div class="social-icon">
-		<img src="img/instagram.png">
-		<img src="img/facebook.png">
+		<a href="#"><img src="img/instagram.png"></a>
+		<a href="#"><img src="img/facebook.png"></a>
+		<a href="#"><img src="img/Youtube.png"></a>
 	</div>
 
 
-	<script>
-		var menubtn = document.getElementById('menubtn')
+<script>
+
+	var btn1 = document.getElementById('btn1')
+	var D1 = document.getElementById('D1')
+	D1.style.display = "none";
+	btn1.onclick = function (){
+		if (D1.style.display == "none") {
+			D1.style.display = "block";
+		}
+		else{
+			D1.style.display = "none";
+		}
+	}
+
+	var btn2 = document.getElementById('btn2')
+	var D2 = document.getElementById('D2')
+	D2.style.display = "none";
+	btn2.onclick = function (){
+		if (D2.style.display == "none") {
+			D2.style.display = "block";
+		}
+		else{
+			D2.style.display = "none";
+		}
+	}
+
+	var btn3 = document.getElementById('btn3')
+	var D3 = document.getElementById('D3')
+	D3.style.display = "none";
+	btn3.onclick = function (){
+		if (D3.style.display == "none") {
+			D3.style.display = "block";
+		}
+		else{
+			D3.style.display = "none";
+		}
+	}
+
+	var menubtn = document.getElementById('menubtn')
 		var sideNav = document.getElementById('sideNav')
 		sideNav.style.right = "-250px";
 		menubtn.onclick = function(){
@@ -209,6 +256,7 @@
 			speedAsDuration: true
 		});
 
-	</script>
+</script>
+
 </body>
 </html>
