@@ -34,7 +34,7 @@ a{
 
 h1{
 	font-size: 33px;
-	color: #007efb;
+	color: #f67c92;
 }
 
 .square{
@@ -45,19 +45,23 @@ h1{
 	margin: 15px 0;
 }
 
+.Email{
+	text-decoration: underline; 
+}
+
 #btn1,#btn2,#btn3,#btn4{
 	padding: 18px 40px;
-	background: transparent;
 	outline: none;
-	border: 2px solid #f67c92;
+	border: 2px solid cyan;
 	font-weight: bold;
 	cursor: pointer;
+	color: black;
 }
 
 p{
 	font-size: 15px;
 	line-height: 18px;
-	color: #03A9F4;
+	color: cyan;
 	font-weight: bold;
 }
 
@@ -152,7 +156,7 @@ nav ul li a{
 	margin-bottom: 15px;
 	font-size: 20px;
 	font-weight: 400;
-	color: #007efb;
+    color: #f67c92;
 }
 
 .Service-btn{
@@ -186,6 +190,7 @@ nav ul li a{
 
 .Contact-left-col h1{
 	font-size: 30px;
+	color: #8cabef;
 }
 
 /*About*/
@@ -217,7 +222,7 @@ nav ul li a{
 }
 
 .About-Text h2{
-	margin: 50px 0 10px;
+	margin: 10px 0 10px;
 	font-size: 28px;
 	font-style: italic;
 }
@@ -249,7 +254,7 @@ hr{
 
 .Footer-left-col{
 	flex-basis: 50%;
-	margin-top: 60px;
+	margin-top: 25px;
 }
 
 .Footer-right-col{
@@ -263,13 +268,18 @@ hr{
 }
 
 .link-title h4{
-	color: #fab3c4;
+	color: #c1c;
 	margin-bottom: 20px;
 }
 
-.link-title small{
+.link-title h6{
 	font-size: 15px;
-	color: #777;
+	color: #cc11ccad;
+}
+
+h6{
+	margin: -5px 0 5px 0;
+	text-decoration: underline;
 }
 
 .footer-info{
@@ -336,6 +346,7 @@ hr{
 
     h1{
 	font-size: 24px;
+	color: #f67c92;
     }
 
     #menubtn{
@@ -398,5 +409,4 @@ hr{
 	text-decoration: none;
 	color: inherit;
     }
-
 }
