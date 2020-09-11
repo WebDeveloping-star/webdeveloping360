@@ -1,13 +1,21 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family:'Corbel',sans-serif;
 }
+
+/*Links*/
 
 a{
 	text-decoration: none;
 	color: inherit;
 }
+
+#M1,.A1{
+	text-decoration: underline;
+}
+
+/*Header*/
 
 #Header{
 	height: 100vh;
@@ -23,7 +31,7 @@ a{
 
 .Logo{
 	margin-top: 30px;
-	width: 25%;
+	width: 40%;
 }
 
 .Header-Text{
@@ -52,15 +60,44 @@ h1{
 #btn1,#btn2,#btn3,#btn4{
 	padding: 18px 40px;
 	outline: none;
+	background-color: transparent;
 	border: 2px solid cyan;
 	font-weight: bold;
 	cursor: pointer;
-	color: black;
+	color: cyan;
+}
+
+#btn1:hover{
+	background-color: cyan;
+	transition: all 0.3s;
+	color: #000;
+	border: 2px solid #000;
+}
+
+#btn2:hover{
+	background-color: cyan;
+	transition: all 0.3s;
+	color: #000;
+	border: 2px solid #000;
+}
+
+#btn3:hover{
+	background-color: cyan;
+	transition: all 0.3s;
+	color: #000;
+	border: 2px solid #000;
+}
+
+#btn4:hover{
+	background-color: cyan;
+	transition: all 0.3s;
+	color: #000;
+	border: 2px solid #000;
 }
 
 p{
-	font-size: 15px;
-	line-height: 18px;
+	font-size: 19px;
+	line-height: 21px;
 	color: cyan;
 	font-weight: bold;
 }
@@ -78,14 +115,14 @@ p{
 }
 
 .Line2{
-	width: 80px;
+	width: 100px;
 	height: 1px;
 	background: #f67c92;
 	display: inline-block;
 }
 
 .Line3{
-	width: 60px;
+	width: 70px;
 	height: 1px;
 	background: #f67c92;
 	display: inline-block;
@@ -193,6 +230,16 @@ nav ul li a{
 	color: #8cabef;
 }
 
+.Contact-left-col h2{
+	margin-top: 15px;
+	font-size: 30px;
+	color: #8cabef;
+}
+
+#D3{
+	font-family: Segoe Print;
+}
+
 /*About*/
 
 #About{
@@ -231,6 +278,10 @@ nav ul li a{
 	font-size: 20px;
 	font-style: italic;
 	color: #f67c92;
+}
+
+#D4 img{
+	width: 5%;
 }
 
 /*Footer*/
@@ -273,12 +324,13 @@ hr{
 }
 
 .link-title h6{
-	font-size: 15px;
+	font-size: 18px;
 	color: #cc11ccad;
 }
 
 h6{
 	margin: -5px 0 5px 0;
+	font-size: 29px;
 	text-decoration: underline;
 }
 
@@ -290,7 +342,7 @@ h6{
 }
 
 .footer-logo img{
-	width: 160px;
+	width: 470px;
 }
 
 .copyright-text,.footer-logo{
@@ -345,7 +397,7 @@ h6{
     }
 
     h1{
-	font-size: 24px;
+	font-size: 26px;
 	color: #f67c92;
     }
 
@@ -393,6 +445,17 @@ h6{
 	margin-top: 50px;
     }
 
+    .Contact-left-col h2{
+	margin-top: 15px;
+	font-size: 25px;
+	color: #8cabef;
+    }
+    
+    #D3{
+	font-family: Segoe Print;
+	font-size: 11px;
+    }
+
     .Footer-left-col{
 	flex-basis: 100%;
     }
@@ -404,6 +467,16 @@ h6{
     .link-title{
 	flex-basis: 50%;
     }
+
+    h6{
+    margin: -5px 0 5px 0;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.footer-logo img {
+    width: 250px;
+}
 
     a{
 	text-decoration: none;
